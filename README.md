@@ -16,5 +16,5 @@ Current List
 ------------
 * yoloEgg() | **shift + 3** | The original. Plays [yolo](www.youtube.com/embed/z5Otla5157c) video within darkened div over entire screen.
 
-#yolo
+**#yolo**
 
