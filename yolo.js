@@ -3,13 +3,16 @@ var yoloCode;
 function yolo(e){
 	yoloCode = String.fromCharCode(e.charCode);
 	// use the log to test for charCode
-	// console.log(yoloCode);
+	console.log(yoloCode);
 
 	// run functions based on keyboard charCodes
 	// input should be string and actual character, no ASCII or Integer business!
 	if (yoloCode == "#"){
 		yoloEgg();
-	}	
+	}
+	if (yoloCode == "$"){
+		laughTrack();
+	}
 }
 
 function yoloEgg(){
@@ -30,4 +33,14 @@ function yoloEgg(){
 	iframe.setAttribute("src", "//www.youtube.com/embed/z5Otla5157c?autoplay=1");
 	iframe.setAttribute("frameborder", "0");
 	document.getElementById("fullScreen").appendChild(iframe);
+}
+
+function laughTrack() {
+	body = document.getElementsByTagName("body")[0];
+	body.setAttribute("style", "background:url(http://www.latenightwithjimmyfallon.com/audience11.jpg) no-repeat center center; background-size:cover; -webkit-background-size:cover; -o-background-size:cover; -moz-background-size:cover;");
+	iframe = document.createElement("iframe");
+	iframe.setAttribute("src", "//www.youtube.com/embed/iYVO5bUFww0?autoplay=1");
+	iframe.setAttribute("width", "0");
+	iframe.setAttribute("height", "0");
+	body.appendChild(iframe);
 }

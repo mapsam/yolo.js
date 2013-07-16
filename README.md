@@ -14,7 +14,8 @@ and attach the `onkeypress` event listener to the `<body>` of your document:
 
 Current List
 ------------
-* yoloEgg() | **shift + 3** | The original. Plays [yolo](www.youtube.com/embed/z5Otla5157c) video within darkened div over entire screen.
+* YOLO | _yoloEgg()_ | **shift + 3** | The original. Plays [yolo](www.youtube.com/embed/z5Otla5157c) video within darkened div over entire screen.
+* Laugh Track | _laughTrack()_ | **shift + 4** | Plays a laughtrack and changes background to Jimmy Fallon crowd.
 
 **#yolo**
 
