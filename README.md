@@ -1,7 +1,7 @@
 yolo.js
 =======
 
-You only live once. Egg your pages with funz.
+You only live once. Egg your pages with funz. Play with them [here](http://www.mapsam.com/mugs/yolo/)
 
 In the `<head>` of your document add the following:
 ```html
