@@ -16,6 +16,8 @@ Current List
 ------------
 * YOLO | _yoloEgg()_ | **shift + 3** | The original. Plays [yolo](www.youtube.com/embed/z5Otla5157c) video within darkened div over entire screen.
 * Laugh Track | _laughTrack()_ | **shift + 4** | Plays a laughtrack and changes background to Jimmy Fallon crowd.
+* Call Me Maybe | _callMe()_ | **shift + 5** | Plays Call Me Maybe
+* Damn kids! | _reset()_ | **shift + x**  | Resets the window
 
 **#yolo**
 
