@@ -1,7 +1,7 @@
 yolo.js
 =======
 
-You only live once. Egg your pages with funz. Play with them [here](http://www.mapsam.com/mugs/yolo/)
+You only live once. Egg your pages with funz. Play with them [here](http://www.mapsam.com/mugs/yolo/). Some of the eggs are jQuery dependent. The rest are st8 vanilla.
 
 In the `<head>` of your document add the following:
 ```html
@@ -11,6 +11,7 @@ and attach the `onkeypress` event listener to the `<body>` of your document:
 ```html
 <body onkeypress="yolo(event);">
 ```
+Most functions use the CSS class `.yolo` which is `position:absolute` as to not interact with the rest of a page's div structure. To reset the page, use `shift + x` which runs `reset()` to remove the `.yolo` class from the document.
 
 Current List
 ------------
